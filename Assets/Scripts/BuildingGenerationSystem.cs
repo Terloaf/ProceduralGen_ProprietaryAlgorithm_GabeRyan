@@ -17,13 +17,18 @@ public class BuildingGenerationSystem : MonoBehaviour
         public int Xmax;
         public int Ymin;
         public int Ymax;
+
+        public BoundingBox(int minX, int maxX, int minY, int maxY)
+        {
+            Xmin = minX;
+            Xmax = maxX;
+            Ymin = minY;
+            Ymax = maxY;
+            
+        }
     }
 
-    public BoundingBox(int minX, int maxX, int minY, int maxY)
-    {
-        
-        
-    }
+  
     
     // Update is called once per frame
     void Update()
@@ -40,8 +45,6 @@ public class BuildingGenerationSystem : MonoBehaviour
             int buildingScaleY = Random.Range(2, 50);
             int buildingScaleX = Random.Range(1, 3);
             int buildingscaleZ = Random.Range(1, 3);
-            minX = buildingx - buildingScaleX / 2;
-            maxX = buildingx + buildingScaleX / 2;
             buildingPos = new Vector3(buildingx, 0, buildingz);
            
             
