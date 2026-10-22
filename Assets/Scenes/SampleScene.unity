@@ -1032,7 +1032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BuildingGenerationSystem
   building: {fileID: 3064006875199577162, guid: f68ead93c32bafc41b62137f93929d2c, type: 3}
   street: {fileID: 7219624510905480314, guid: d89c2550eed26d24890604ecd1f81a5d, type: 3}
-  setBuildingAmount: 80
+  setBuildingAmount: 100
   streetRotation: 0
   generationCompleted: 0
 --- !u!4 &1716628525
